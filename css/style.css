@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+button{
+    color: white;
+    background-color: teal;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 360px;
+}
+.container{
+    display: flex;
+    background-color: rgb(223, 223, 223);
+    gap: 5px;
+}                                                    
+main{
+    flex: 5;
+    padding: 40px;
+    background: #ffffff;
+}
+aside{
+    flex: 3;
+    background: white;
+    padding: 20px;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#our-service {
+    margin-top: 20px;
+}
+
+body{
+    background-color: rgb(168, 168, 168);
+}
+#line{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#line div {
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    outline: 1px solid rgb(222, 222, 222);
+    transition: ease .3s;
+}
+
+#line div:hover {
+    box-shadow: 1px 2px 2px 1px rgba(128, 128, 128, 0.585);
+}
+
+#line div img {
+    display: flex;
+     justify-content: center;
+     align-items: center;
+     margin:auto;
+     padding: 15px;
+}
+
+#line div p {
+    display: flex;
+     justify-content: center;
+     align-items: center;
+     margin:auto;
+     padding: 15px;
+}
+h3{
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+}
